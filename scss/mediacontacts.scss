@@ -1,0 +1,31 @@
+@media screen and (max-width: 1140px) and (min-width: 887px) {
+
+    .zagolovok, .text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 887px) {
+
+    .sectionone, .sectiontwo {
+        flex-direction: column;
+    }
+
+    .infa {
+        width: 80%; 
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .zagolovok, .text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        margin: 80px 0px 30px;
+    }
+}

@@ -1,0 +1,67 @@
+@media screen and (max-width: 1050px) and (min-width: 768px) {
+  div.inform, .informaplace1, .informaplace2 {
+    font-size: 14px;
+  }
+  .informplace {
+    margin-top: 25%;
+  }
+  .waysofbuying {
+    gap: 6%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 70%;
+  }
+  .firstsection {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 20%;
+  }
+  .secondsection {
+    width: 100%;
+    padding-bottom: 2%;
+  }
+  .day1 {
+    margin-top: 2%;
+  }
+  .day1, .day2, .time1, .time2 {
+    margin: 2% 0;
+  }
+}
+@media screen and (max-width: 624px) {
+  .waysofbuying {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .informaplace2 {
+    margin-top: 8%;
+  }
+  h2 {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 438px) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+  }
+  div.inform, .informaplace1, .informaplace2, .day1, .day2, .time1, .time2 {
+    font-size: 14px;
+  }
+}

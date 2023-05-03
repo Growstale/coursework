@@ -1,0 +1,38 @@
+@import "variablesmain.scss";
+
+body {
+    background-color: $colorwhite2;
+}
+
+.collective {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 30px 20px 50px;
+}
+
+.img__cart {
+    width: 350px;
+    height: 480px;
+    margin: auto;
+    object-fit: cover;
+    transition: .5s;
+    @include border($colorpurple);
+    &:hover {
+        box-shadow: 0 0 25px $colorpurple;
+    }
+}
+
+.info__cart1, .info__cart2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 100px;
+    text-align: center;
+    color: $colorblack;
+}

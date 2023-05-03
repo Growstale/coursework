@@ -1,0 +1,44 @@
+@import "variablesmain.scss";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+	width: 100%;
+	background-color: $colorblack2;
+	display: flex;
+	padding: 5% 2%;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	align-content: space-around;
+	gap: 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.firstinfo, .secondinfo {
+	color: $colorwhite2;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.info__footer__title {
+	font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mgik, .mkrb {
+	height: 8vh;
+}
+
+.social__network {
+	@include size(30%, 8vh);
+}
+
+button, .cart img, .social__network, .mgik, .mkrb {
+	cursor: pointer;
+}

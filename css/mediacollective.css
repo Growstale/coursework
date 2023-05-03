@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .img__cart {
+    width: 250px;
+    height: 380px;
+  }
+  .info__cart2 {
+    max-width: 250px;
+  }
+  .cart {
+    width: 250px;
+    height: 430px;
+  }
+  h1 {
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,218 @@
+<afisha>
+<cart>
+    <link>../html/Ostrov.html</link>
+    <image>../image/perfomance/OstrovGlPhoto.jpg</image>
+    <title>Остров сокровищ</title>
+    <date>1 Июня, 15:00</date>
+    <description>по роману Роберта Льюиса Стивенсона</description>
+    <time>Продолжительность: 1 час 25 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Threesister.html</link>
+    <image>../image/perfomance/TreeSGlPhoto.jpg</image>
+    <title>Три сестры</title>
+    <date>3 Июня, 21:00</date>
+    <description>по пьесе Антона Чехова</description>
+    <time>Продолжительность: 2 часа 40 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Cororlir.html</link>
+    <image>../image/perfomance/KorolGlPhoto.jpg</image>
+    <title>Король Лир</title>
+    <date>5 Июня, 12:00</date>
+    <description>по пьесе Уильяма Шекспира</description>
+    <time>Продолжительность: 1 час 50 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Romeo.html</link>
+    <image>../image/perfomance/RomeoGlPhoto.jpeg</image>
+    <title>Ромео и Джульетта</title>
+    <date>6 Июня, 17:00</date>
+    <description>по трагедии Уильяма Шекспира</description>
+    <time>Продолжительность: 2 часа 15 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Tartuf.html</link>
+    <image>../image/perfomance/TartufGlPhoto.jpg</image>
+    <title>Тартюф</title>
+    <date>7 Июня, 19:00</date>
+    <description>по пьесе Мольера</description>
+    <time>Продолжительность: 1 час 45 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Vishnsad.html</link>
+    <image>../image/perfomance/VishnyaGlPhoto.jpeg</image>
+    <title>Вишнёвый сад</title>
+    <date>8 Июня, 17:00</date>
+    <description>по пьесе Антона Чехова</description>
+    <time>Продолжительность: 1 часа 40 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Caredip.html</link>
+    <image>../image/perfomance/CaredinGlPhoto.jpg</image>
+    <title>Царь Эдип</title>
+    <date>8 Июня, 19:00</date>
+    <description>по трагедии Софокла</description>
+    <time>Продолжительность: 2 часа</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Kashtanka.html</link>
+    <image>../image/perfomance/KashtankaGlPhoto.png</image>
+    <title>Каштанка</title>
+    <date>9 Июня, 12:00</date>
+    <description>по рассказу Антона Чехова</description>
+    <time>Продолжительность: 1 час 30 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Idiot.html</link>
+    <image>../image/perfomance/IdiotGlPhoto.jpg</image>
+    <title>Идиот</title>
+    <date>10 Июня, 15:00</date>
+    <description>по роману Фёдора Достоевского</description>
+    <time>Продолжительность: 2 часа 40 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Pigmalion.html</link>
+    <image>../image/perfomance/PigmalionGlPhoto.jpg</image>
+    <title>Пигмалион</title>
+    <date>12 Июня, 19:00</date>
+    <description>по пьесе Бернарда Шоу</description>
+    <time>Продолжительность: 1 час 50 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Ostrov.html</link>
+    <image>../image/perfomance/OstrovGlPhoto.jpg</image>
+    <title>Остров сокровищ</title>
+    <date>13 Июня, 12:00</date>
+    <description>по роману Роберта Льюиса Стивенсона</description>
+    <time>Продолжительность: 1 час 25 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Kashtanka.html</link>
+    <image>../image/perfomance/KashtankaGlPhoto.png</image>
+    <title>Каштанка</title>
+    <date>13 Июня, 17:00</date>
+    <description>по рассказу Антона Чехова</description>
+    <time>Продолжительность: 1 час 30 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Tartuf.html</link>
+    <image>../image/perfomance/TartufGlPhoto.jpg</image>
+    <title>Тартюф</title>
+    <date>14 Июня, 17:00</date>
+    <description>по пьесе Мольера</description>
+    <time>Продолжительность: 1 час 45 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Portret.html</link>
+    <image>../image/perfomance/PortretGlPhoto.jpg</image>
+    <title>Портрет Дориана Грея</title>
+    <date>15 Июня, 18:00</date>
+    <description>по роману Оскара Уайльда</description>
+    <time>Продолжительность: 2 часа 40 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Snegyrochka.html</link>
+    <image>../image/perfomance/SnegyrochkaGlPhoto.jpg</image>
+    <title>Снегурочка</title>
+    <date>17 Июня, 15:00</date>
+    <description>по пьесе Александра Островского</description>
+    <time>Продолжительность: 1 час 20 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Cororlir.html</link>
+    <image>../image/perfomance/KorolGlPhoto.jpg</image>
+    <title>Король Лир</title>
+    <date>19 Июня, 18:00</date>
+    <description>по пьесе Уильяма Шекспира</description>
+    <time>Продолжительность: 1 час 50 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Leitenant.html</link>
+    <image>../image/perfomance/LeitenantGlPhoto.jpg</image>
+    <title>Лейтенант с острова Инишмор</title>
+    <date>22 Июня, 19:00</date>
+    <description>по пьесе Мартина Макдонаха</description>
+    <time>Продолжительность: 2 часа 20 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Romeo.html</link>
+    <image>../image/perfomance/RomeoGlPhoto.jpeg</image>
+    <title>Ромео и Джульетта</title>
+    <date>24 Июня, 15:00</date>
+    <description>по трагедии Уильяма Шекспира</description>
+    <time>Продолжительность: 2 часа 15 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Otello.html</link>
+    <image>../image/perfomance/OtelloGlPhoto.jpeg</image>
+    <title>Отелло</title>
+    <date>26 Июня, 17:00</date>
+    <description>по пьесе Уильяма Шекспира </description>
+    <time>Продолжительность: 1 час 45 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Portret.html</link>
+    <image>../image/perfomance/PortretGlPhoto.jpg</image>
+    <title>Портрет Дориана Грея</title>
+    <date>27 Июня, 18:00</date>
+    <description>по роману Оскара Уайльда</description>
+    <time>Продолжительность: 2 часа 40 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Threesister.html</link>
+    <image>../image/perfomance/TreeSGlPhoto.jpg</image>
+    <title>Три сестры</title>
+    <date>28 Июня, 17:00</date>
+    <description>по пьесе Антона Чехова</description>
+    <time>Продолжительность: 2 часа 40 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Vishnsad.html</link>
+    <image>../image/perfomance/VishnyaGlPhoto.jpeg</image>
+    <title>Вишнёвый сад</title>
+    <date>29 Июня, 19:00</date>
+    <description>по пьесе Антона Чехова</description>
+    <time>Продолжительность: 1 часа 40 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Ostrov.html</link>
+    <image>../image/perfomance/OstrovGlPhoto.jpg</image>
+    <title>Остров сокровищ</title>
+    <date>30 Июня, 14:00</date>
+    <description>по роману Роберта Льюиса Стивенсона</description>
+    <time>Продолжительность: 1 час 25 минут</time>
+    <but>Подробнее</but>
+</cart>
+<cart>
+    <link>../html/Leitenant.html</link>
+    <image>../image/perfomance/LeitenantGlPhoto.jpg</image>
+    <title>Лейтенант с острова Инишмор</title>
+    <date>30 Июня, 18:00</date>
+    <description>по пьесе Мартина Макдонаха</description>
+    <time>Продолжительность: 2 часа 20 минут</time>
+    <but>Подробнее</but>
+</cart>
+</afisha>

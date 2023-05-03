@@ -1,0 +1,111 @@
+.maincontainer {
+  width: 80%;
+  margin: auto;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.maincontainer img {
+  width: 20vw;
+  height: 40vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid #8243D3;
+  margin-right: 5vh;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.maincontainer div {
+  font-size: 26px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #2A263F;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+body {
+  background-color: #EEEAEE;
+  padding-top: 120px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #101124;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #6B15FE, #8243D3);
+  border-radius: 15px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.date {
+  font-weight: 700;
+}
+
+.button {
+  position: relative;
+  background-color: #2A263F;
+  color: #2A263F;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+  width: 190px;
+}
+
+.button:hover {
+  background: var(--clr);
+  color: var(--clr);
+  letter-spacing: 0.15em;
+  -webkit-box-shadow: 0 0 15px var(--clr);
+          box-shadow: 0 0 15px var(--clr);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #EEEAEE;
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  margin-top: 4vh;
+}
+
+img:hover {
+  -webkit-box-shadow: 0 0 15px #8243D3;
+          box-shadow: 0 0 15px #8243D3;
+}

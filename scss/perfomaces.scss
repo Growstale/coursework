@@ -1,0 +1,295 @@
+@import "variablesmain.scss";
+
+body {
+    background-color: $colorwhite2;
+    font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.inform {
+    position: absolute;
+    color: $colorwhite;
+    top: 20%;
+    font-size: 26px;
+}
+
+.zagolov {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.informblock {
+    width: 100%;
+    color: $colorblack;
+    padding: 5% 20%;
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .inform__perfomance {
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+.dateblock {
+    display: flex;
+    width: 100%;
+    background-color: $colorblack2;
+    gap: 10%;
+    flex-wrap: wrap;
+    padding: 2% 30%;
+    justify-content: center;
+
+    .day, button {
+        width: 33%;
+    }
+
+    .day {
+        color: $colorwhite;
+        font-size: 26px;
+        margin-top: 1%;
+    }
+}
+
+.photo {
+    width: 100%;
+    padding: 2%;
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 2%;
+    }
+
+    .cart {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+    }
+
+    img {
+        width: 22%;
+        height: 50vh;
+        object-fit: cover;
+        transition: 0.5s;
+    }
+}
+
+.photo img:hover {
+	box-shadow: 0 0 25px $colorpurple;
+  }
+
+.ref1:hover, .ref2:hover, .ref3:hover {
+	box-shadow: 0 0 25px $colorpurple;
+}
+
+.references {
+    padding: 2%;
+    width: 100%;
+    background-color: $colorblack2;
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: $colorwhite2;
+    }
+
+    .refs {
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        padding: 2%;
+    }
+
+    .ref1, .ref2, .ref3 {
+        width: 25%;
+        border-radius: 2% ;
+        border: 1px solid black;
+        background-color: $colorwhite2;
+        padding: 1%;
+        display: flex;
+        gap: 5%;
+        transition: 0.5s;
+        flex-wrap: wrap;
+        text-align: justify;
+
+        img {
+            object-fit: cover;
+            width: 5vw;
+            height: 10vh;
+            border-radius: 50%;
+        }
+    }
+}
+
+.formcontainer {
+    background-color: $colorwhite2;
+    padding: 5%;
+}
+
+.form button:hover {
+	box-shadow: 0 0 15px $colorpurple;
+    letter-spacing: .15em;
+  }
+
+.form {
+    width: 40%;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 16px $colorblack2;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0;
+    margin: auto;
+
+    button {
+        width: 90%;
+        height: 50px;
+        @include border($colorpurple);
+        background-color: $colorpurple;
+        color: $colorwhite2;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 5px;
+        transition: .2s linear;
+        margin: 0 5%;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+}
+
+input, textarea {
+    width: 90%;
+    background-color: $colorwhite;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 5%;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 40%;
+    resize: none; 
+}
+
+input {
+    height: 10%;
+}
+
+.form h2 {
+    font-size: 20px;
+    color: $colorblack2;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+label {
+    justify-self: flex-start;
+    align-self: flex-start;
+    margin: 0 5%;
+    font-size: 18px;
+    color: $colorblack2;
+}
+
+.button_date {
+	position: relative;
+	background-color: transparent;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+	padding: 10px 30px;
+	transition: 0.5s;
+	text-align: center;
+	border: 2px solid $colorblack2;
+	color: $colorblack2;
+  }
+  
+  .button_date:hover {
+	background: $colorpurple;
+	color: $colorpurple;
+	letter-spacing: 0.15em;
+	box-shadow: 0 0 15px $colorpurple;
+  }
+  
+  .button_date:before {
+	content: '';
+	position: absolute;
+	inset: 2px;
+	background: $colorwhite2;
+  }
+  
+  .button_date span {
+	position: relative;
+	z-index: 1;
+  }
+
+  .input-control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-control input:focus {
+    outline: 0;
+  }
+
+  .input-control.success input, .input-control.success textarea {
+    border-color: #09c372;
+}
+
+  .input-control.error input, .input-control.error textarea {
+    border-color: #ff3860;
+    margin: 0 5%;
+
+  }
+
+  .input-control .error {
+    color: #ff3860;
+    margin: 0 5% 5%;
+
+  }
+
+  .popup-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,80%);
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    background: #fff;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 10%;
+    font-size: 21px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}

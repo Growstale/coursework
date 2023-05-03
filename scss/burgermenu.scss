@@ -1,0 +1,117 @@
+@import "variablesmain.scss";
+
+@mixin display-position {
+    position: relative;
+	display: flex;
+}
+
+html {
+	overflow-y: scroll;
+	scrollbar-color: $colorpurple #101124;
+	scrollbar-width: thin;
+}
+  
+body::-webkit-scrollbar {
+	  width: 0.5em;
+	  background-color: #101124 ;
+}
+body::-webkit-scrollbar-thumb {
+	  background-color: $colorpurple;
+}
+
+*,*::before,*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: $full;
+}
+
+.header {
+	position: fixed;
+	width: $full;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
+.header::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: $full;
+	height: $full;
+	background-color: #1C1B23;
+	z-index: 2;
+}
+
+.container {
+	max-width: $full;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header__body {
+	@include display-position;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+}
+
+.header__logo {
+	flex: 0 0 10px;
+	padding-bottom: 10px;
+	position: relative;
+	z-index: 3;
+}
+
+.logo {
+	height: 60px;
+	width: 270px;
+	margin-top: 10px;
+}
+
+.header__burger {
+	display: none;
+}
+
+.header__list {
+	@include display-position;
+	z-index: 2;
+
+	li {
+		list-style: none;
+	}
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 40px;
+	transition: 0.1s all linear;
+	
+	&:hover {
+		color: $colorpurple;
+	}
+}
+
+.sub-menu__list {
+	position: absolute;
+	top: 30px;
+	background-color: #1C1B23;
+	padding: 20px;
+	width: 180px;
+	height: 80px;
+	left: -20px;
+	display: none;
+	opacity: 0;
+}
+
+.header__menu li {
+	position: relative;
+}

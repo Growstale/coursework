@@ -1,0 +1,81 @@
+@import "variablesmain.scss";
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+    background-image: url(../image/dopinformation/tickback.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Фон страницы фиксируется */
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: 20px;
+}
+
+.form {
+    position: absolute;
+    inset: 0;
+    margin: auto ;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstsection {
+    background-color: $colorblack2;
+    opacity: 0.7;
+    padding-right: 5%;
+    width: 30%;
+}
+
+.secondsection {
+    background-color: $colorblack2;
+    padding-right: 5%;
+    width: 70%;
+}
+
+h2 {
+    margin: 2% 0px 0px 2%;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+}
+
+div.inform, .informaplace1, .informaplace2 {
+    color: #fff;
+    margin: 2% 0 0 2%;
+    font-size: 18px;
+}
+
+.informplace {
+    margin-top: 15%;
+}
+
+.day1, .day2, .time1, .time2  {
+    margin: 2% 0 0 8%;
+    color: #fff;
+}
+
+.day2 {
+    margin-bottom: 30px;
+}
+
+.day1 {
+    margin-top: 8%;
+}
+
+.active {
+    color: $colorpurple;
+}
+
+.waysofbuying {
+    display: flex;
+    gap: 10%;
+}

@@ -1,0 +1,51 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: #2A263F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5% 2%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  gap: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.firstinfo, .secondinfo {
+  color: #EEEAEE;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.info__footer__title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mgik, .mkrb {
+  height: 8vh;
+}
+
+.social__network {
+  width: 30%;
+  height: 8vh;
+}
+
+button, .cart img, .social__network, .mgik, .mkrb {
+  cursor: pointer;
+}

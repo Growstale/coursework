@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../2semlab/ScriptingLanguages/Lab/Lab1/my-app/public"
+		},
+		{
+			"path": "../2semlab/ScriptingLanguages/Lab/Lab1/my-app/src"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "public",
+		"liveServer.settings.port": 5501
+	}
+}

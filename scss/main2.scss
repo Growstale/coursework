@@ -1,0 +1,263 @@
+@import "variablesmain.scss";
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+    max-width: 100vw;
+	padding: 0;
+}
+
+.wrapper {
+    max-width: 100vw;
+	max-height: 100vh;
+}
+
+.cart img, .social__network, .mgik, .mkrb {
+	cursor: pointer;
+}
+
+.cart {
+    @include size(25%, 55vh);
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0%, 0%, 0%, 0%);
+	transition: background 0.5s ease;
+  }
+
+.cart:hover .overlay {
+	display: block;
+	background: rgba(0, 0, 0, 30%);
+}
+  
+.cart img{
+	flex: auto;
+	object-fit: cover;
+	@include border($colorpurple);
+	padding: 0;
+    @include size($full, 100%);
+	transition: 0.5s;
+}
+
+.swiper {
+    @include size($full, 100%);
+	margin: 0;
+	background-color: black;
+}
+
+.swiper-slide {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	overflow: hidden;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+	right: 50px !important;
+	left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+	left: 50px !important;
+	right: auto;
+}
+
+.containerr {
+	position: relative;
+    @include size($full, 100%);
+	margin: 0;
+	padding: 0;
+
+	img {
+        @include size($full, 100%);
+		padding: 0;
+		margin: 0;
+		object-fit: cover;
+	}
+
+	.pp {
+		position: absolute;
+		text-transform: uppercase;
+        @include topleft (120px, 10%);
+		color: $colorwhite;
+		font-size: 40px;
+	}
+}
+
+.afisha, .collective {
+    width: 100%;
+    padding-top: 3%;
+    height: auto;
+    margin: 0;
+    background-color: $colorblack2;
+}
+
+.collective {
+    background-color: $colorwhite2;
+	height: auto;
+}
+
+.afishawrapper, .collectivewrapper {
+	width: 80%;
+	height: 70%;
+    margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    gap: 8%;
+}
+
+.afisha_h1 {
+	color: $colorwhite2;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.cartinfo {
+	position: absolute;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	z-index: 1;
+	transition: top .5s ease;
+  }
+  
+.cart:hover .cartinfo {
+	top: 30%;
+}
+
+.cartbutton:hover {
+	box-shadow: 0 0 15px $colorpurple;
+    letter-spacing: .1em;
+	color: $colorpurple;
+}
+
+.cartbutton {
+	position: absolute;
+	width: 70%;
+	left: 15%;
+	top: 50%;
+	text-align: center;
+	opacity: 0;
+	transition: .35s ease;
+	@include border($colorpurple);
+	background-color: transparent;
+	height: 15%;
+	text-align: center;
+	color: white;
+	z-index: 1;
+	font-weight: 700;
+	font-size: 18px;
+}
+  
+.cart:hover .cartbutton {
+	opacity: 1;
+}
+
+.namespec {
+	text-align: center;
+	position: absolute;
+	top: 80%; left: 0; bottom: 0; right: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: $colorblack;
+	opacity: 0;
+	background-color: $colorwhite2;
+	transition: opacity .35s ease;
+}
+
+.cart:hover .namespec {
+	opacity: 0.6;
+}
+
+.collective_h1 {
+	color: $colorblack2;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.cart img:hover {
+	box-shadow: 0 0 15px $colorpurple;
+}
+
+.button_collective_link, .button_afisha_link, .button_swiper_link {
+	position: relative;
+	background-color: transparent;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+	padding: 10px 30px;
+	transition: 0.5s;
+	text-align: center;
+	margin: 5% 0;
+  }
+
+.button_afisha_link, .button_swiper_link {
+	border: 2px solid $colorwhite2;
+	color: $colorwhite2;
+}
+
+.button_collective_link {
+	border: 2px solid $colorblack2;
+	color: $colorblack2;
+}
+  
+.button_collective_link:hover, .button_afisha_link:hover {
+	background: $colorpurple;
+	color: $colorpurple;
+	letter-spacing: 0.15em;
+	box-shadow: 0 0 15px $colorpurple;
+}
+
+.button_swiper_link:hover {
+	background: transparent;
+	color: $colorpurple;
+	letter-spacing: 0.15em;
+	box-shadow: 0 0 15px $colorpurple;
+}
+  
+.button_collective_link::before {
+	content: '';
+	position: absolute;
+	inset: 2px;
+	background: $colorwhite2;
+}
+
+.button_afisha_link::before {
+	content: '';
+	position: absolute;
+	inset: 2px;
+	background: $colorblack2;
+}
+
+.button_swiper_link::before {
+	content: '';
+	position: absolute;
+	inset: 2px;
+	background: transparent;
+}
+  
+.button_collective_link span, .button_afisha_link span, .button_swiper_link span {
+	position: relative;
+	z-index: 1;
+}
+
+.button_swiper_link {
+	position: absolute;
+    @include topleft (135px, 10%);
+}

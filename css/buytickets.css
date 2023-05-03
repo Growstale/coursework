@@ -1,0 +1,361 @@
+@charset "UTF-8";
+body {
+  padding-top: 80px;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  background-color: #EEEAEE;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #EEEAEE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #6B15FE, #8243D3);
+  border-radius: 15px;
+}
+
+.containertickets {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 2%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.firsthalf {
+  width: 65%;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 1px 6px #2A263F;
+          box-shadow: 0px 1px 6px #2A263F;
+}
+
+.secondhalf {
+  width: 30%;
+  height: 85vh;
+  background-color: #fff;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 1px 6px #2A263F;
+          box-shadow: 0px 1px 6px #2A263F;
+}
+
+#informpart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2%;
+  width: 100%;
+}
+#informpart #title, #informpart #time, #informpart .theatre {
+  font-size: 26px;
+}
+#informpart #title {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+#informpart .theatre {
+  margin-left: 5%;
+}
+
+#basketpart {
+  overflow: auto;
+  height: 65vh;
+  padding: 2%;
+}
+#basketpart div {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  margin-bottom: 2%;
+  padding-left: 2%;
+}
+#basketpart div div {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#cointer {
+  height: 20vh;
+  border-top: 3px #EEEAEE solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10%;
+}
+#cointer button {
+  width: 60%;
+  height: 5vh;
+  font-weight: 700;
+  background-color: #8243D3;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  letter-spacing: 0.1em;
+  color: #EEEAEE;
+}
+#cointer button:hover {
+  border: 3px solid #8243D3;
+  -webkit-box-shadow: 0 0 15px #8243D3;
+          box-shadow: 0 0 15px #8243D3;
+  letter-spacing: 0.15em;
+}
+#cointer .kolich {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+circle {
+  cursor: pointer;
+}
+
+.trash-button {
+  background-color: transparent;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1; /* сдвигаем первый элемент на первое место */
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
+  cursor: pointer;
+}
+
+.nameofspec {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.empty {
+  text-transform: uppercase;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.formcontainer {
+  background-color: #EEEAEE;
+  padding: 5%;
+  display: none;
+}
+
+.form {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #EEEAEE;
+  -webkit-box-shadow: 0px 4px 16px #2A263F;
+          box-shadow: 0px 4px 16px #2A263F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2%;
+}
+.form button {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 180px;
+  height: 50px;
+  border: 3px solid #8243D3;
+  background-color: #8243D3;
+  color: #EEEAEE;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  margin: 0 0 0 3%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 15vh;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.contacts {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px 0px;
+  border: 3px solid transparent;
+  height: 7vh;
+  background-color: #fff;
+}
+
+input[type=radio] {
+  width: 10%;
+  height: 5vh;
+}
+
+.input-control {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.radioinput {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.radioinput .input-control div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.oplata1 {
+  height: 8vh;
+}
+
+.oplata2 {
+  height: 14vh;
+}
+
+textarea {
+  height: 40%;
+  resize: none;
+}
+
+input {
+  height: 10%;
+}
+
+.form h2 {
+  font-size: 20px;
+  color: #2A263F;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.popup-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.popup {
+  position: absolute;
+  background: #fff;
+  width: 60%;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 10%;
+  font-size: 21px;
+}
+
+.close-popup {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input, .input-control.success textarea {
+  border-color: #09c372;
+}
+
+.input-control.error input, .input-control.error textarea {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  margin: 0 0 5%;
+}
