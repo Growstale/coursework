@@ -5,18 +5,8 @@ body {
   padding: 0;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  background-color: #101124;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #6B15FE, #8243D3);
-  border-radius: 15px;
-}
-
 h1 {
-  margin: 110px 0px 30px;
+  margin: 110px 0 30px;
   text-transform: uppercase;
   color: #2A263F;
   text-align: center;

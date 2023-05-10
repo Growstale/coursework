@@ -1,11 +1,10 @@
-@media screen and (max-width: 768px) {
-
-    .img__cart {
+@media screen and (width <= 768px) {
+    .img-cart {
         width: 250px;
         height: 380px;
     }
 
-    .info__cart2 {
+    .info-cart2 {
         max-width: 250px;        
     }
 

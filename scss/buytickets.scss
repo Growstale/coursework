@@ -1,4 +1,4 @@
-@import "variablesmain.scss";
+@import "variablesmain";
 
 body {
     padding-top: 80px;
@@ -26,7 +26,7 @@ body {
     flex-wrap: wrap;
     background-color: $colorwhite;
     border-radius: 2%;
-    box-shadow: 0px 1px 6px $colorblack2;
+    box-shadow: 0 1px 6px $colorblack2;
 }
 
 .secondhalf {
@@ -34,7 +34,7 @@ body {
     height: 85vh;
     background-color: $colorwhite;
     border-radius: 2%;
-    box-shadow: 0px 1px 6px $colorblack2;
+    box-shadow: 0 1px 6px $colorblack2;
 }
 
 #informpart {
@@ -55,6 +55,26 @@ body {
 
     .theatre {
         margin-left: 5%;
+    }
+}
+
+.input-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.radioinput {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    .input-control {
+        div {
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
     }
 }
 
@@ -87,9 +107,9 @@ body {
     align-items: center;
     gap: 10%;
 
-    button {
+    .ticketsbutton {
         width: 60%;
-        height: 5vh;
+        height: 30px;
         font-weight: 700;
         background-color: $colorpurple;
         text-transform: uppercase;
@@ -99,6 +119,7 @@ body {
 
         &:hover {
             @include border($colorpurple);
+
             box-shadow: 0 0 15px $colorpurple;
             letter-spacing: .15em;
         }
@@ -145,7 +166,7 @@ circle {
     height: auto;
     border-radius: 10px; 
     background-color: $colorwhite2;
-    box-shadow: 0px 4px 16px $colorblack2;
+    box-shadow: 0 4px 16px $colorblack2;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -153,10 +174,11 @@ circle {
     padding: 2%;
 
     button {
-        transition: 0.5s;
         width: 180px;
         height: 50px;
+
         @include border($colorpurple);
+
         background-color: $colorpurple;
         color: $colorwhite2;
         font-size: 18px;
@@ -182,7 +204,7 @@ input[type="text"] {
     padding: 10px;
     border-radius: 10px; 
     font-size: 20px;
-    margin: 10px 0px;
+    margin: 10px 0;
     border: 3px solid transparent;
     height: 7vh;
     background-color: $colorwhite;
@@ -193,30 +215,10 @@ input[type="radio"] {
     height: 5vh;
 }
 
-.input-control {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.radioinput {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-
-    .input-control {
-
-        div {
-            display: flex;
-            align-content: center;
-            align-items: center;
-        }
-    }
-}
-
 .oplata1 {
     height: 8vh;
 }
+
 .oplata2 {
     height: 14vh;
 }
@@ -245,7 +247,7 @@ input {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,80%);
+    background: rgba(0 0 0 / 80%);
     display: none;
 }
 

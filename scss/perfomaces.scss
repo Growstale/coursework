@@ -1,4 +1,4 @@
-@import "variablesmain.scss";
+@import "variablesmain";
 
 body {
     background-color: $colorwhite2;
@@ -32,7 +32,7 @@ body {
         margin-bottom: 10px;
     }
 
-    .inform__perfomance {
+    .inform-perfomance {
         text-align: center;
         font-size: 24px;
     }
@@ -122,7 +122,7 @@ body {
 
         img {
             object-fit: cover;
-            width: 5vw;
+            width: 10vh;
             height: 10vh;
             border-radius: 50%;
         }
@@ -134,15 +134,10 @@ body {
     padding: 5%;
 }
 
-.form button:hover {
-	box-shadow: 0 0 15px $colorpurple;
-    letter-spacing: .15em;
-  }
-
 .form {
     width: 40%;
     border-radius: 10px; 
-    box-shadow: 0px 4px 16px $colorblack2;
+    box-shadow: 0 4px 16px $colorblack2;
     display: flex;
     flex-direction: column;
     padding: 2% 0;
@@ -151,7 +146,9 @@ body {
     button {
         width: 90%;
         height: 50px;
+
         @include border($colorpurple);
+
         background-color: $colorpurple;
         color: $colorwhite2;
         font-size: 18px;
@@ -162,6 +159,11 @@ body {
         letter-spacing: .1em;
         text-transform: uppercase;
     }
+}
+
+.form button:hover {
+	box-shadow: 0 0 15px $colorpurple;
+    letter-spacing: .15em;
 }
 
 input, textarea {
@@ -200,7 +202,7 @@ label {
     color: $colorblack2;
 }
 
-.button_date {
+.button-date {
 	position: relative;
 	background-color: transparent;
 	text-decoration: none;
@@ -215,21 +217,21 @@ label {
 	color: $colorblack2;
   }
   
-  .button_date:hover {
+  .button-date:hover {
 	background: $colorpurple;
 	color: $colorpurple;
 	letter-spacing: 0.15em;
 	box-shadow: 0 0 15px $colorpurple;
   }
   
-  .button_date:before {
+  .button-date::before {
 	content: '';
 	position: absolute;
 	inset: 2px;
 	background: $colorwhite2;
   }
   
-  .button_date span {
+  .button-date span {
 	position: relative;
 	z-index: 1;
   }
@@ -265,7 +267,7 @@ label {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,80%);
+    background: rgba(0 0 0 / 80%);
     display: none;
 }
 

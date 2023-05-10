@@ -6,16 +6,6 @@ body {
   background-color: #EEEAEE;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  background-color: #EEEAEE;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #6B15FE, #8243D3);
-  border-radius: 15px;
-}
-
 .containertickets {
   width: 100%;
   height: 90vh;
@@ -48,8 +38,8 @@ body {
       flex-wrap: wrap;
   background-color: #fff;
   border-radius: 2%;
-  -webkit-box-shadow: 0px 1px 6px #2A263F;
-          box-shadow: 0px 1px 6px #2A263F;
+  -webkit-box-shadow: 0 1px 6px #2A263F;
+          box-shadow: 0 1px 6px #2A263F;
 }
 
 .secondhalf {
@@ -57,8 +47,8 @@ body {
   height: 85vh;
   background-color: #fff;
   border-radius: 2%;
-  -webkit-box-shadow: 0px 1px 6px #2A263F;
-          box-shadow: 0px 1px 6px #2A263F;
+  -webkit-box-shadow: 0 1px 6px #2A263F;
+          box-shadow: 0 1px 6px #2A263F;
 }
 
 #informpart {
@@ -82,6 +72,38 @@ body {
 }
 #informpart .theatre {
   margin-left: 5%;
+}
+
+.input-control {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.radioinput {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.radioinput .input-control div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #basketpart {
@@ -129,9 +151,9 @@ body {
           align-items: center;
   gap: 10%;
 }
-#cointer button {
+#cointer .ticketsbutton {
   width: 60%;
-  height: 5vh;
+  height: 30px;
   font-weight: 700;
   background-color: #8243D3;
   text-transform: uppercase;
@@ -140,7 +162,7 @@ body {
   letter-spacing: 0.1em;
   color: #EEEAEE;
 }
-#cointer button:hover {
+#cointer .ticketsbutton:hover {
   border: 3px solid #8243D3;
   -webkit-box-shadow: 0 0 15px #8243D3;
           box-shadow: 0 0 15px #8243D3;
@@ -189,8 +211,8 @@ circle {
   height: auto;
   border-radius: 10px;
   background-color: #EEEAEE;
-  -webkit-box-shadow: 0px 4px 16px #2A263F;
-          box-shadow: 0px 4px 16px #2A263F;
+  -webkit-box-shadow: 0 4px 16px #2A263F;
+          box-shadow: 0 4px 16px #2A263F;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,8 +225,6 @@ circle {
   padding: 2%;
 }
 .form button {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
   width: 180px;
   height: 50px;
   border: 3px solid #8243D3;
@@ -239,7 +259,7 @@ input[type=text] {
   padding: 10px;
   border-radius: 10px;
   font-size: 20px;
-  margin: 10px 0px;
+  margin: 10px 0;
   border: 3px solid transparent;
   height: 7vh;
   background-color: #fff;
@@ -248,38 +268,6 @@ input[type=text] {
 input[type=radio] {
   width: 10%;
   height: 5vh;
-}
-
-.input-control {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.radioinput {
-  width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.radioinput .input-control div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .oplata1 {

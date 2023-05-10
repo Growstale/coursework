@@ -5,20 +5,20 @@ $colorpurple: #8243D3;
 $colorwhite2: #EEEAEE;
 $colorblack2: #2A263F;
 
-@mixin size ($iwidth, $iheight) {
+@mixin size($iwidth, $iheight) {
     width: $iwidth;
     height: $iheight;
 }
 
-@mixin border ($color) {
+@mixin border($color) {
     border: 3px solid $color;
 }
 
-@mixin bordermin ($color) {
+@mixin bordermin($color) {
     border: 1px solid $color;
 }
 
-@mixin topleft ($top, $left) {
+@mixin topleft($top, $left) {
     top: $top;
     left: $left;
 }

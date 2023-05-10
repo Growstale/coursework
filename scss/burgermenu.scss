@@ -1,4 +1,4 @@
-@import "variablesmain.scss";
+@import "variablesmain";
 
 @mixin display-position {
     position: relative;
@@ -15,6 +15,7 @@ body::-webkit-scrollbar {
 	  width: 0.5em;
 	  background-color: #101124 ;
 }
+
 body::-webkit-scrollbar-thumb {
 	  background-color: $colorpurple;
 }
@@ -55,14 +56,15 @@ html, body {
 	padding: 0 10px;
 }
 
-.header__body {
+.header-body {
 	@include display-position;
+
 	justify-content: space-between;
 	height: 80px;
 	align-items: center;
 }
 
-.header__logo {
+.header-logo {
 	flex: 0 0 10px;
 	padding-bottom: 10px;
 	position: relative;
@@ -75,12 +77,13 @@ html, body {
 	margin-top: 10px;
 }
 
-.header__burger {
+.header-burger {
 	display: none;
 }
 
-.header__list {
+.header-list {
 	@include display-position;
+	
 	z-index: 2;
 
 	li {
@@ -88,7 +91,7 @@ html, body {
 	}
 }
 
-.header__link {
+.header-link {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -100,7 +103,7 @@ html, body {
 	}
 }
 
-.sub-menu__list {
+.sub-menu-list {
 	position: absolute;
 	top: 30px;
 	background-color: #1C1B23;
@@ -112,6 +115,6 @@ html, body {
 	opacity: 0;
 }
 
-.header__menu li {
+.header-menu li {
 	position: relative;
 }

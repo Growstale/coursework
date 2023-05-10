@@ -18,7 +18,7 @@ body {
   padding: 30px 20px 50px;
 }
 
-.img__cart {
+.img-cart {
   width: 350px;
   height: 480px;
   margin: auto;
@@ -28,12 +28,12 @@ body {
   transition: 0.5s;
   border: 3px solid #8243D3;
 }
-.img__cart:hover {
+.img-cart:hover {
   -webkit-box-shadow: 0 0 25px #8243D3;
           box-shadow: 0 0 25px #8243D3;
 }
 
-.info__cart1, .info__cart2 {
+.info-cart1, .info-cart2 {
   text-align: center;
   font-weight: 600;
 }

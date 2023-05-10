@@ -1,4 +1,4 @@
-@media screen and (max-width: 1005px) {
+@media screen and (width <= 1005px) {
   .maincontainer {
     height: 80vh;
     padding-top: 2vh;
@@ -15,7 +15,7 @@
     width: 30%;
   }
 }
-@media screen and (max-height: 760px) and (max-width: 633px) {
+@media screen and (height <= 760px) and (width <= 633px) {
   .maincontainer {
     height: 100vh;
     padding-top: 2vh;
@@ -29,12 +29,12 @@
     font-size: 18px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (width <= 700px) {
   button {
     width: 70%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
   body {
     padding-top: 70px;
   }

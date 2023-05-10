@@ -18,5 +18,3 @@ document.getElementById('id_third_button').onclick = function() {
     let timeofperfomance = document.getElementById('date3').textContent;
     localStorage.setItem('time', timeofperfomance);
 }
-
-//localStorage.setItem('globalArray', JSON.stringify([]));

@@ -1,19 +1,19 @@
-@media screen and (max-width: 1433px) and (min-width: 1148px) {
+@media screen and (width <= 1433px) and (width >= 1148px) {
   .dateblock {
     padding: 2% 25%;
   }
 }
-@media screen and (max-width: 1148px) and (min-width: 952px) {
+@media screen and (width <= 1148px) and (width >= 952px) {
   .dateblock {
     padding: 2% 20%;
   }
 }
-@media screen and (max-width: 952px) and (min-width: 816px) {
+@media screen and (width <= 952px) and (width >= 816px) {
   .dateblock {
     padding: 2% 15%;
   }
 }
-@media screen and (max-width: 816px) {
+@media screen and (width <= 816px) {
   .dateblock {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -28,12 +28,12 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (width <= 575px) {
   .dateblock .day {
     font-size: 21px;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 482px) {
+@media screen and (width <= 768px) and (width >= 482px) {
   .inform {
     font-size: 21px;
   }
@@ -41,7 +41,7 @@
     font-size: 36px;
   }
 }
-@media screen and (max-width: 482px) {
+@media screen and (width <= 482px) {
   .inform {
     font-size: 16px;
     top: 35%;
@@ -50,11 +50,11 @@
     font-size: 28px;
   }
 }
-@media screen and (max-width: 562px) {
+@media screen and (width <= 562px) {
   .informblock h1, .photo h1 {
     font-size: 24px;
   }
-  .informblock .inform__perfomance {
+  .informblock .inform-perfomance {
     font-size: 16px;
   }
   .photo .cart {
@@ -74,7 +74,7 @@
     margin-bottom: 2%;
   }
 }
-@media screen and (max-width: 1140px) and (min-width: 887px) {
+@media screen and (width <= 1140px) and (width >= 887px) {
   .references .refs {
     gap: 3%;
   }
@@ -82,7 +82,7 @@
     width: 30%;
   }
 }
-@media screen and (max-width: 887px) and (min-width: 427px) {
+@media screen and (width <= 887px) and (width >= 427px) {
   .references .refs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -96,12 +96,8 @@
     width: 60%;
     margin-bottom: 2%;
   }
-  .references .ref1 img, .references .ref2 img, .references .ref3 img {
-    width: 10vw;
-    height: 9vh;
-  }
 }
-@media screen and (max-width: 427px) {
+@media screen and (width <= 427px) {
   .references .refs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -115,12 +111,8 @@
     width: 80%;
     margin-bottom: 2%;
   }
-  .references .ref1 img, .references .ref2 img, .references .ref3 img {
-    width: 13vw;
-    height: 8vh;
-  }
 }
-@media screen and (max-width: 600px) {
+@media screen and (width <= 600px) {
   .form {
     width: 80%;
   }
@@ -131,18 +123,18 @@
     font-size: 16px;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 465px) {
-  .button_date {
+@media screen and (width <= 768px) and (width >= 465px) {
+  .button-date {
     padding: 10px 15px;
   }
 }
-@media screen and (max-width: 566px) and (min-width: 465px) {
-  .button_date {
+@media screen and (width <= 566px) and (width >= 465px) {
+  .button-date {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 465px) {
-  .button_date {
+@media screen and (width <= 465px) {
+  .button-date {
     font-size: 12px;
     width: 60%;
     padding: 10px 10px;

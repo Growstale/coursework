@@ -1,9 +1,9 @@
-@media screen and (max-width: 1140px) and (min-width: 887px) {
+@media screen and (width <= 1140px) and (width >= 887px) {
   .zagolovok, .text {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 887px) {
+@media screen and (width <= 887px) {
   .sectionone, .sectiontwo {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -14,12 +14,12 @@
     width: 80%;
   }
 }
-@media screen and (max-width: 426px) {
+@media screen and (width <= 426px) {
   .zagolovok, .text {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
   h1 {
     margin: 80px 0px 30px;
   }

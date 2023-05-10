@@ -1,11 +1,11 @@
-@media screen and (max-width: 1115px) and (min-width: 963px) {
-  .header__link {
+@media screen and (width <= 1115px) and (width >= 963px) {
+  .header-link {
     font-size: 17px;
     margin-right: 22px;
   }
 }
-@media screen and (max-width: 963px) and (min-width: 857px) {
-  .header__link {
+@media screen and (width <= 963px) and (width >= 857px) {
+  .header-link {
     font-size: 16px;
     margin-right: 16px;
   }
@@ -14,8 +14,8 @@
     width: 240px;
   }
 }
-@media screen and (max-width: 857px) and (min-width: 768px) {
-  .header__link {
+@media screen and (width <= 857px) and (width >= 768px) {
+  .header-link {
     font-size: 15px;
     margin-right: 10px;
   }
@@ -24,24 +24,24 @@
     width: 220px;
   }
 }
-@media screen and (max-width: 768px) {
-  .header__list {
+@media screen and (width <= 768px) {
+  .header-list {
     display: block;
   }
-  .header__link {
-    margin-right: 0px;
+  .header-link {
+    margin-right: 0;
   }
-  .header__list li {
-    margin: 0px 0px 20px;
+  .header-list li {
+    margin: 0 0 20px;
   }
-  .header__burger {
+  .header-burger {
     display: block;
     position: relative;
     width: 30px;
     height: 20px;
     z-index: 3;
   }
-  .header__burger::after, .header__burger::before {
+  .header-burger::after, .header-burger::before {
     content: "";
     background-color: #fff;
     position: absolute;
@@ -51,23 +51,23 @@
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
-  .header__burger::after {
+  .header-burger::after {
     bottom: 0;
   }
-  .header__burger::before {
+  .header-burger::before {
     top: 0;
   }
-  .header__burger.active::before {
+  .header-burger.active::before {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     top: 9px;
   }
-  .header__burger.active::after {
+  .header-burger.active::after {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     bottom: 9px;
   }
-  .header__burger span {
+  .header-burger span {
     position: absolute;
     background-color: #fff;
     left: 0;
@@ -77,11 +77,11 @@
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
-  .header__burger.active span {
+  .header-burger.active span {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
-  .header__menu {
+  .header-menu {
     position: fixed;
     top: 0;
     right: -100%;
@@ -93,10 +93,10 @@
     padding: 70px 10px 20px;
     overflow: auto;
   }
-  .header__menu.active {
+  .header-menu.active {
     right: 0;
   }
-  .header__body {
+  .header-body {
     height: 50px;
   }
   .logo {
@@ -104,19 +104,19 @@
     width: 220px;
     margin-top: 0px;
   }
-  .header__logo {
+  .header-logo {
     padding-bottom: 5px;
   }
   body.lock {
     overflow: hidden;
   }
-  .sub-menu__list {
+  .sub-menu-list {
     position: relative;
     background-color: transparent;
-    padding: 0px 0px 0px 60px;
+    padding: 0 0 0 60px;
     margin-bottom: 50px;
   }
-  .sub_link {
+  .sub-link {
     font-size: 15px;
   }
 }

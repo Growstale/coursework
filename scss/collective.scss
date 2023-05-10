@@ -1,4 +1,4 @@
-@import "variablesmain.scss";
+@import "variablesmain";
 
 body {
     background-color: $colorwhite2;
@@ -13,19 +13,21 @@ body {
     padding: 30px 20px 50px;
 }
 
-.img__cart {
+.img-cart {
     width: 350px;
     height: 480px;
     margin: auto;
     object-fit: cover;
     transition: .5s;
+    
     @include border($colorpurple);
+
     &:hover {
         box-shadow: 0 0 25px $colorpurple;
     }
 }
 
-.info__cart1, .info__cart2 {
+.info-cart1, .info-cart2 {
     text-align: center;
     font-weight: 600;
 }

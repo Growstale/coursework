@@ -1,10 +1,10 @@
-@import "variablesmain.scss";
+@import "variablesmain";
 
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding: 0;
-    background-image: url(../image/dopinformation/tickback.jpg);
+    background-image: url("../image/dopinformation/tickback.jpg");
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,14 +16,16 @@ body {
     height: 100vh;
     position: relative;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form {
-    position: absolute;
     inset: 0;
     margin: auto ;
     width: 60%;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
 }
@@ -37,12 +39,15 @@ body {
 
 .secondsection {
     background-color: $colorblack2;
-    padding-right: 5%;
+    padding: 2%;
     width: 70%;
+    height: 70vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
 
 h2 {
-    margin: 2% 0px 0px 2%;
     text-transform: uppercase;
     color: #fff;
     font-size: 24px;
@@ -50,13 +55,9 @@ h2 {
 
 div.inform, .informaplace1, .informaplace2 {
     color: #fff;
-    margin: 2% 0 0 2%;
     font-size: 18px;
 }
 
-.informplace {
-    margin-top: 15%;
-}
 
 .day1, .day2, .time1, .time2  {
     margin: 2% 0 0 8%;

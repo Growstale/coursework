@@ -1,0 +1,318 @@
+body {
+  background-color: #EEEAEE;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.inform {
+  position: absolute;
+  color: #fff;
+  top: 20%;
+  font-size: 26px;
+}
+
+.zagolov {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.informblock {
+  width: 100%;
+  color: #1C1B23;
+  padding: 5% 20%;
+}
+.informblock h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.informblock .inform-perfomance {
+  text-align: center;
+  font-size: 24px;
+}
+
+.dateblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #2A263F;
+  gap: 10%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2% 30%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.dateblock .day, .dateblock button {
+  width: 33%;
+}
+.dateblock .day {
+  color: #fff;
+  font-size: 26px;
+  margin-top: 1%;
+}
+
+.photo {
+  width: 100%;
+  padding: 2%;
+}
+.photo h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+.photo .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3%;
+}
+.photo img {
+  width: 22%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.photo img:hover {
+  -webkit-box-shadow: 0 0 25px #8243D3;
+          box-shadow: 0 0 25px #8243D3;
+}
+
+.ref1:hover, .ref2:hover, .ref3:hover {
+  -webkit-box-shadow: 0 0 25px #8243D3;
+          box-shadow: 0 0 25px #8243D3;
+}
+
+.references {
+  padding: 2%;
+  width: 100%;
+  background-color: #2A263F;
+}
+.references h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #EEEAEE;
+}
+.references .refs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5%;
+  padding: 2%;
+}
+.references .ref1, .references .ref2, .references .ref3 {
+  width: 25%;
+  border-radius: 2%;
+  border: 1px solid black;
+  background-color: #EEEAEE;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: justify;
+}
+.references .ref1 img, .references .ref2 img, .references .ref3 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+}
+
+.formcontainer {
+  background-color: #EEEAEE;
+  padding: 5%;
+}
+
+.form button:hover {
+  -webkit-box-shadow: 0 0 15px #8243D3;
+          box-shadow: 0 0 15px #8243D3;
+  letter-spacing: 0.15em;
+}
+
+.form {
+  width: 40%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 16px #2A263F;
+          box-shadow: 0px 4px 16px #2A263F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2% 0;
+  margin: auto;
+}
+.form button {
+  width: 90%;
+  height: 50px;
+  border: 3px solid #8243D3;
+  background-color: #8243D3;
+  color: #EEEAEE;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  margin: 0 5%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+input, textarea {
+  width: 90%;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  margin: 0 5%;
+  border: 3px solid transparent;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 40%;
+  resize: none;
+}
+
+input {
+  height: 10%;
+}
+
+.form h2 {
+  font-size: 20px;
+  color: #2A263F;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+label {
+  justify-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0 5%;
+  font-size: 18px;
+  color: #2A263F;
+}
+
+.button-date {
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+  border: 2px solid #2A263F;
+  color: #2A263F;
+}
+
+.button-date:hover {
+  background: #8243D3;
+  color: #8243D3;
+  letter-spacing: 0.15em;
+  -webkit-box-shadow: 0 0 15px #8243D3;
+          box-shadow: 0 0 15px #8243D3;
+}
+
+.button-date:before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #EEEAEE;
+}
+
+.button-date span {
+  position: relative;
+  z-index: 1;
+}
+
+.input-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input, .input-control.success textarea {
+  border-color: #09c372;
+}
+
+.input-control.error input, .input-control.error textarea {
+  border-color: #ff3860;
+  margin: 0 5%;
+}
+
+.input-control .error {
+  color: #ff3860;
+  margin: 0 5% 5%;
+}
+
+.popup-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.popup {
+  position: absolute;
+  background: #fff;
+  width: 60%;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 10%;
+  font-size: 21px;
+}
+
+.close-popup {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
