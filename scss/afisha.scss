@@ -13,6 +13,12 @@
     padding-top: 5vh;
     padding-bottom: 5vh;
 
+    div {
+        font-size: 26px;
+    }
+}
+
+#afishacontainer {
     img {
         width: 20vw;
         height: 40vh;
@@ -20,11 +26,12 @@
         border: 3px solid $colorpurple;
         margin-right: 5vh;
         transition: 0.5s;
+
+        &:hover {
+            box-shadow: 0 0 15px $colorpurple;
+        }
     }
 
-    div {
-        font-size: 26px;
-    }
 }
 
 h1 {
@@ -66,10 +73,10 @@ body {
   }
 
   .button:hover {
-	background: var(-clr);
+	background: $colorpurple;
 	color: var(-clr);
 	letter-spacing: 0.15em;
-	box-shadow: 0 0 15px var(-clr);
+	box-shadow: 0 0 15px $colorpurple;
   }
 
   .button::before {
@@ -86,8 +93,4 @@ body {
 
 footer {
     margin-top: 4vh;
-}
-
-img:hover {
-	box-shadow: 0 0 15px $colorpurple;
 }

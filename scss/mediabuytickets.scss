@@ -85,6 +85,10 @@
         width: 90%;
     }
 
+    input[type="text"] {
+        width: 100%;
+    }
+
     .radioinput {
         width: 90%;
     }
@@ -119,14 +123,20 @@
     }
 }
 
-@media screen and (width <= 495px) and (width >=375px) {
+@media screen and (width <= 495px) and (width >=385px) {
     #svg-container {
         height: 320px;
     }
 }
 
-@media screen and (width <= 375px) {
+@media screen and (width >= 305px) and (width <= 385px) {
     #svg-container {
         height: 250px;
+    }
+}
+
+@media screen and (width <= 305px) {
+    #svg-container {
+        height: 210px;
     }
 }

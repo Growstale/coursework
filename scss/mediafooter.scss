@@ -3,3 +3,11 @@
         font-size: 14px;
     }
 }
+
+@media screen and (width <= 1087px) {
+    .footer {
+        div {
+            margin-bottom: 5px;
+        }
+    }
+}

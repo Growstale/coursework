@@ -101,11 +101,25 @@
         </div>
         <div class="formcontainer">
             <form action="" class="form">
-                <label>Оставить отзыв</label>
-                <input type="text" class="name" placeholder="Имя">
-                <input type="text" class="email" placeholder="E-mail">
-                <textarea class="message" placeholder="Отзыв"></textarea>
-                <button>Отправить</button>
+                <form class="form" id="form" action="/">
+                    <h2>Оставить отзыв</h2>
+                    <div class="input-control">
+                    <label for="username">Имя</label>
+                    <input type="text" id="username" name="username">
+                    <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email">
+                    <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                    <label for="message">Отзыв</label>
+                    <textarea id="message" name="message"></textarea>
+                    <div class="error"></div>
+                    </div>
+                    <button type="submit" id="submitBtn">Отправить</button>
+                </form>
             </form>
         </div>
         <footer class="footer">
@@ -138,7 +152,12 @@
                     </svg>
                 </a>
             </div>
-        </footer></div>
+        </footer>
+        <div class="popup-bg">
+            <div class="popup">Отзыв успешно оставлен
+              <img class="close-popup" src="../image/important/cross.svg">
+            </div>
+    </div>
     </body>
 <script type="text/javascript" src="../js/perfomaces.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>

@@ -1,6 +1,6 @@
 if (window.XMLHttpRequest) {
     xmlhttp = new XMLHttpRequest();
-   } else {// code for IE6, IE5
+   } else {
     xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
    }
    xmlhttp.onreadystatechange = function () {
@@ -30,7 +30,7 @@ if (window.XMLHttpRequest) {
         x[i].getElementsByTagName("description")[0].childNodes[0].nodeValue +
         "</div><div>" +
         x[i].getElementsByTagName("time")[0].childNodes[0].nodeValue +
-        "</div><a class='button' style='--clr:#8243D3' href='" + 
+        "</div><a class='button' href='" + 
         x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue +
         "'><span>" +
         x[i].getElementsByTagName("but")[0].childNodes[0].nodeValue +

@@ -18,7 +18,11 @@
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
-.maincontainer img {
+.maincontainer div {
+  font-size: 26px;
+}
+
+#afishacontainer img {
   width: 20vw;
   height: 40vh;
   -o-object-fit: cover;
@@ -28,8 +32,9 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.maincontainer div {
-  font-size: 26px;
+#afishacontainer img:hover {
+  -webkit-box-shadow: 0 0 15px #8243D3;
+          box-shadow: 0 0 15px #8243D3;
 }
 
 h1 {
@@ -72,11 +77,11 @@ body {
 }
 
 .button:hover {
-  background: var(-clr);
+  background: #8243D3;
   color: var(-clr);
   letter-spacing: 0.15em;
-  -webkit-box-shadow: 0 0 15px var(-clr);
-          box-shadow: 0 0 15px var(-clr);
+  -webkit-box-shadow: 0 0 15px #8243D3;
+          box-shadow: 0 0 15px #8243D3;
 }
 
 .button::before {
@@ -93,9 +98,4 @@ body {
 
 footer {
   margin-top: 4vh;
-}
-
-img:hover {
-  -webkit-box-shadow: 0 0 15px #8243D3;
-          box-shadow: 0 0 15px #8243D3;
 }
