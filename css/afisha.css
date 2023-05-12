@@ -18,11 +18,7 @@
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
-.maincontainer div {
-  font-size: 26px;
-}
-
-#afishacontainer img {
+.maincontainer img {
   width: 20vw;
   height: 40vh;
   -o-object-fit: cover;
@@ -32,9 +28,12 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-#afishacontainer img:hover {
+.maincontainer img:hover {
   -webkit-box-shadow: 0 0 15px #8243D3;
           box-shadow: 0 0 15px #8243D3;
+}
+.maincontainer div {
+  font-size: 26px;
 }
 
 h1 {
